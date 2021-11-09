@@ -1,7 +1,7 @@
 /* UC-3:- Chechking euality|greater|lesser of two lines usting .compareTo method. */
 import java.util.Scanner;
 
-public class lineComparison{
+public class LineComparison{
 	public static void main(String[] args){
 		System.out.println("Welcome To Line Comparison Computation Program.\n");
 
