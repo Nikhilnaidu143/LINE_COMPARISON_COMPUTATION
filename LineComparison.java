@@ -1,7 +1,7 @@
 /* UC-2:- Chechking euality of two lines usting .equals method. */
 import java.util.Scanner;
 
-public class lineComparison{
+public class LineComparison{
 	public static void main(String[] args){
 		System.out.println("Welcome To Line Comparison Computation Program.\n");
 
