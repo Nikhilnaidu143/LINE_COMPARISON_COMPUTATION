@@ -1,6 +1,6 @@
-/* UC-2:- Chechking euality of two lines usting .equals method. */
-import java.util.Scanner;
 
+/* UC-3:- Chechking euality|greater|lesser of two lines usting .compareTo method. */
+import java.util.Scanner;
 public class LineComparison{
 	public static void main(String[] args){
 		System.out.println("Welcome To Line Comparison Computation Program.\n");
@@ -53,6 +53,20 @@ public class LineComparison{
 		}
 		else{
 			System.out.println("LINE-1 IS NOT EQUAL TO LINE-2.");
+    }
+		System.out.println(" ");
+		/* FINDING WHETHER FIRST LINE IS GREATER or LESS or EQUAL TO OTHER LINE  */
+		double comp = L1.compareTo(L2);
+
+		System.out.println("FINDING [GREATER | LESSER | EQUAL] BY USING .compareTo METHOD :- ");
+		if(comp >= 1) {
+			System.out.println("LINE-1 IS GREATER THAN LINE-2.");
+		}
+		else if(comp == 0) {
+			System.out.println("LINE-1 IS EQUAL TO LINE-2.");
+		}
+		else {
+			System.out.println("LINE-1 IS LESSER THAN LINE-2.");
 		}
 	}
 }
