@@ -53,7 +53,7 @@ public class LineComparison{
 		}
 		else{
 			System.out.println("LINE-1 IS NOT EQUAL TO LINE-2.");
-    }
+    	}
 		System.out.println(" ");
 		/* FINDING WHETHER FIRST LINE IS GREATER or LESS or EQUAL TO OTHER LINE  */
 		double comp = L1.compareTo(L2);
