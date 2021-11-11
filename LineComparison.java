@@ -1,4 +1,4 @@
-/* UC-2:- Chechking euality of two lines usting .equals method. */
+/*  UC-2:- Chechking euality of two lines usting .equals method. */
 import java.util.Scanner;
 
 public class LineComparison{
