@@ -1,5 +1,4 @@
-/* UC-1:- Calculated length of the Line. */
-
+/* UC-1 :_ Calculate length of the line */
 import java.util.Scanner;
 
 public class LineComparison{
