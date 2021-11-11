@@ -33,26 +33,40 @@ public class LineComparison{
       System.out.print("ENTER B2 VALUE :- ");
       b2 = input.nextInt();
 
-      /* FINDING LENGTHS OF LINE-1 & LINE-2. */
-      double LenOfLine1 = Math.sqrt(Math.pow((x2-x1), 2)+Math.pow((y2-y1), 2));
-      double LenOfLine2 = Math.sqrt(Math.pow((a2-a1), 2)+Math.pow((b2-b1), 2));
-      System.out.println(" ");
-      /* DISPLAYING LINE-1 AND LINE-2 LENGTHS */
-      System.out.println("LENGTHS OF LINE-1 AND LINE-2 ARE :- ");
+		/* FINDING LENGTHS OF LINE-1 & LINE-2. */
+		double LenOfLine1 = Math.sqrt(Math.pow((x2-x1), 2)+Math.pow((y2-y1), 2));
+		double LenOfLine2 = Math.sqrt(Math.pow((a2-a1), 2)+Math.pow((b2-b1), 2));
+		System.out.println(" ");
+		/* DISPLAYING LINE-1 AND LINE-2 LENGTHS */
+		System.out.println("LENGTHS OF LINE-1 AND LINE-2 ARE :- ");
 
-      System.out.println("LENGTH OF LINE-1 :- " + LenOfLine1);
-      System.out.println("LENGTH OF LINE-2 :- " + LenOfLine2);
+		System.out.println("LENGTH OF LINE-1 :- " + LenOfLine1);
+		System.out.println("LENGTH OF LINE-2 :- " + LenOfLine2);
 
-      System.out.println(" ");
-      /* CONVERSION OF DOUBLE TYPE TO STRING TYPE FOR .equals METHOD */
-      String L1 = Double.toString(LenOfLine1);
-      String L2 = Double.toString(LenOfLine2);
+		System.out.println(" ");
+		/* CONVERSION OF DOUBLE TYPE TO STRING TYPE FOR .equals METHOD */
+		String L1 = Double.toString(LenOfLine1);
+		String L2 = Double.toString(LenOfLine2);
 
-      if(L1.equals(L2)){
-         System.out.println("LINE-1 IS EQUAL TO LINE-2.");
-      }
-      else{
-         System.out.println("LINE-1 IS NOT EQUAL TO LINE-2.");
-      }
-   }
+		if(L1.equals(L2)){
+			System.out.println("LINE-1 IS EQUAL TO LINE-2.");
+		}
+		else{
+			System.out.println("LINE-1 IS NOT EQUAL TO LINE-2.");
+    	}
+		System.out.println(" ");
+		/* FINDING WHETHER FIRST LINE IS GREATER or LESS or EQUAL TO OTHER LINE  */
+		double comp = L1.compareTo(L2);
+
+		System.out.println("FINDING [GREATER | LESSER | EQUAL] BY USING .compareTo METHOD :- ");
+		if(comp >= 1) {
+			System.out.println("LINE-1 IS GREATER THAN LINE-2.");
+		}
+		else if(comp == 0) {
+			System.out.println("LINE-1 IS EQUAL TO LINE-2.");
+		}
+		else {
+			System.out.println("LINE-1 IS LESSER THAN LINE-2.");
+		}
+	}
 }
