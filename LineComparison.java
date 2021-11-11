@@ -1,11 +1,10 @@
-/*  UC-2:- Chechking euality of two lines usting .equals method. */
+/* UC-4:- APPLIED OOPS CONCEPT */
 import java.util.Scanner;
-
 public class LineComparison{
-   public static void main(String[] args){
-      System.out.println("Welcome To Line Comparison Computation Program.\n");
-
+	public void equal_compareTo_method(){
+		System.out.println("Welcome To Line Comparison Computation Program.\n");
       Scanner input = new Scanner(System.in);
+
       /* LOCAL VARIABLES */
       int x1, x2, y1, y2;
       int a1, a2, b1, b2;
