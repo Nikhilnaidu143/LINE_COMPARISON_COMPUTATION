@@ -1,8 +1,7 @@
-
-/* UC-3:- Chechking euality|greater|lesser of two lines usting .compareTo method. */
+/* UC-4:- APPLIED OOPS CONCEPT */
 import java.util.Scanner;
 public class LineComparison{
-	public static void main(String[] args){
+	public void equal_compareTo_method(){
 		System.out.println("Welcome To Line Comparison Computation Program.\n");
 
 		Scanner input = new Scanner(System.in);
@@ -70,4 +69,3 @@ public class LineComparison{
 		}
 	}
 }
-
